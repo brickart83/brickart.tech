@@ -1,0 +1,55 @@
+.navbar {
+    background: url('/hero.jpg');
+    height: 75px!important;
+    background-position: center;
+    background-size: cover;
+    line-height: 50px!important;
+}
+.navbar:before {
+    background: rgba(0, 0, 0, 0.7);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.navbar .links {
+    background: none!important;
+    right: 2rem!important;
+}
+.nav-links a {
+    color: white!important;
+}
+.navbar .site-name {
+    color: white!important;
+    text-transform: uppercase;
+    font-size: 1.5rem!important;
+}
+.content {
+    height: auto;
+    padding: 75px 0 2rem !important;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+.content:not(.custom) > *:first-child {
+    margin-top: 0!important;
+}
+
+@media only screen and (min-width: 64em) {
+    .navbar {
+        height: 120px!important;
+        line-height: 80px!important;
+    }
+    .navbar .site-name {
+        font-size: 2.5rem!important;
+    }
+    .content {
+        padding: 120px 0 2rem !important;
+    }
+    .navbar .links {
+
+    }
+}

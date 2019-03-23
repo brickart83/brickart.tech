@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{204:function(t,e,s){"use strict";s.r(e);var n=s(0),i=Object(n.a)({},function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("Posts",{attrs:{page:"reviews",title:"Reviews"}})],1)},[],!1,null,null,null);e.default=i.exports}}]);
